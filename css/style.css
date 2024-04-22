@@ -56,6 +56,19 @@ a:hover {
   display: flex;
 }
 
+@media (max-width: 700px) {
+  .info {
+    display: block;
+  }
+  .info-text {
+    text-align: center;
+    margin-right: 40px;
+  }
+  .image {
+    text-align: center;
+  }
+}
+
 .info p {
   color: #86898f;
   margin: 0;
