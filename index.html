@@ -1,87 +1,108 @@
-<html><head>
-  <meta charset="UTF-8">
-  <title> Den CV </title>
-  <link href="css/style.css" rel="stylesheet">
-</head>
-<body>
-<div class="container">
+<!doctype html>
+  <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title> Den CV </title>
+    <link href="css/style.css"
+          rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <img src="photo.jpg" alt="Что-то пошло не так" class="photo">
+        <h1> Денис Высоцкий </h1>
+        <p> Я программист </p>
+        <p>
+          <strong> Я люблю путешествовать, заниматься спортом, программировать и читать книги </strong>
+        </p>
+        <h4> Мои социальные сети </h4>
+        <a href="https://instagram.com/deny_awesome"
+           target="_blank"> Instagram </a> |
+        <a href=" https://t.me/deny_awesome"
+           target="_blank"> Telegram </a>
+      </div>
 
-  <div class="info">
-    <img src="photo.jpg" alt="Что-то пошло не так" class="photo">
-    <h1> Денис Высоцкий </h1>
-    <p> Я программист </p>
-    <p>
-      <strong> Я люблю путешествовать, заниматься спортом, программировать и читать книги </strong>
-    </p>
-    <h4> Мои социальные сети </h4>
-    <a href="https://instagram.com/deny_awesome" target="_blank"> Instagram </a> |
-    <a href=" https://t.me/deny_awesome" target="_blank"> Telegram </a>
-  </div>
+      <div class="card bg-yellow">
+        <h2> Мои хобби </h2>
+        <ol class="list">
+          <li> Путешествия </li>
+          <li> Спорт </li>
+          <li> Программирование </li>
+          <li> Чтение </li>
+        </ol>
+      </div>
 
-  <div class="card bg-yellow">
-    <h2> Мои хобби </h2>
-    <ol class="list">
-      <li> Путеществия </li>
-      <li> Спорт </li>
-      <li> Программирование </li>
-      <li> Чтение </li>
-    </ol>
-  </div>
+      <div class="card bg-green">
+        <h2> Опыт работы </h2>
+        <table class="table">
+          <tbody>
+          <tr>
+            <td> EPAM </td>
+            <td> Software developer </td>
+            <td> 2018 - 2022 </td>
+          </tr>
+          <tr>
+            <td> Softserve </td>
+            <td> Software developer </td>
+            <td> 2022 - 2024 </td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
 
-  <div class="card bg-green">
-    <h2> Опыт работы </h2>
-    <table class="table">
-      <tbody><tr>
-        <td> EPAM </td>
-        <td> Software developer </td>
-        <td> 2018 - 2022 </td>
-      </tr>
-      <tr>
-        <td> Softserve </td>
-        <td> Software developer </td>
-        <td> 2022 - 2024 </td>
-      </tr>
-      </tbody></table>
-  </div>
-  <div class="card bg-red">
-    <h2> Youtube курсы </h2>
-    <ul class="link-list">
-      <li>
-        <a href="youtube.html" target="_blank"> Курс 1 </a>
-      </li>
-      <li>
-        <a href="youtube.html" target="_blank"> Курс 2 </a>
-      </li>
-    </ul>
+      <div class="card bg-red">
+        <h2> Youtube курсы </h2>
+        <ul class="link-list">
+          <li>
+            <a href="youtube.html"
+               target="_blank"> Курс 1 </a>
+          </li>
+          <li>
+            <a href="youtube.html"
+               target="_blank"> Курс 2 </a>
+          </li>
+        </ul>
+      </div>
 
-  </div>
+      <div class="contact">
+        <h2> Связаться со мной </h2>
+        <form action="/">
+          <label for="name">
+            Ваше имя:
+          </label>
+          <input type="text"
+                 id="name"
+                 placeholder="Введите ваше имя" />
 
-  <div class="card">
-    <h2> Связаться со мной </h2>
-    <form action="/index.html">
-      <label for="name"> Ваше имя: </label>
-      <input type="text" id="name" placeholder="Введите ваше имя">
+          <br />
 
-      <br>
+          <label for="email">
+            Ваш email:
+          </label>
+          <input type="email"
+                 id="email"
+                 placeholder="Введите ваш email" />
+          <br />
 
-      <label for="email"> Ваш email: </label>
-      <input type="email" id="email" placeholder="Введите ваш email">
+          <label for="text">
+            Ваше сообщение:
+          </label>
 
-      <br>
+          <br />
 
-      <label for="message"> Ваше сообщение: </label>
+          <textarea id="text"
+                    rows="2"
+                    cols="15">
+          </textarea>
 
-      <br>
+          <br />
 
-      <textarea id="message"></textarea>
+          <input type="submit"
+                 value="Связаться" />
+        </form>
+      </div>
 
-      <br>
+    </div>
+  </body>
+</html>
 
-      <input type="submit" value="Связаться со мной">
-    </form>
-  </div>
-
-</div>
-
-
-</body></html>
