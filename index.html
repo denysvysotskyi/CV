@@ -67,38 +67,42 @@
       <div class="contact">
         <h2> Связаться со мной </h2>
         <form action="/">
-          <label for="name">
-            Ваше имя:
-          </label>
-          <input type="text"
-                 id="name"
-                 placeholder="Введите ваше имя" />
 
-          <br />
+          <div class="row">
+            <div class="form-group">
+              <label for="name">
+                Ваше имя:
+              </label>
+              <input type="text"
+                     id="name"
+                     placeholder="Введите ваше имя" />
+            </div>
 
-          <label for="email">
-            Ваш email:
-          </label>
-          <input type="email"
-                 id="email"
-                 placeholder="Введите ваш email" />
-          <br />
+            <div class="form-group">
+              <label for="email">
+                Ваш email:
+              </label>
+              <input type="email"
+                     id="email"
+                     placeholder="Введите ваш email" />
+            </div>
+          </div>
 
-          <label for="text">
-            Ваше сообщение:
-          </label>
+          <div class="form-group">
+            <label for="text">
+              Ваше сообщение:
+            </label>
+            <textarea id="text"
+                      rows="2"
+                      cols="15">
+            </textarea>
+          </div>
 
-          <br />
+          <div class="input">
+            <input type="submit"
+                   value="Связаться" />
+          </div>
 
-          <textarea id="text"
-                    rows="2"
-                    cols="15">
-          </textarea>
-
-          <br />
-
-          <input type="submit"
-                 value="Связаться" />
         </form>
       </div>
 
